@@ -12,7 +12,7 @@ public class TC_001 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		
-		System.out.println("test");
+		System.out.println("test 2");
 		
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("hello");
