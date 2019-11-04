@@ -12,6 +12,8 @@ public class TC_2 {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		
+		System.out.println("Test 3");
+		
 		driver.findElementById("email").sendKeys("hello");
 		driver.findElementById("pass").sendKeys("hello");
 		driver.findElementByXPath("//label[@id='loginbutton']").click();
